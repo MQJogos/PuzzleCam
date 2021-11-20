@@ -1,6 +1,8 @@
 let VIDEO=null;
 let CANVAS=null;
 let CONTEXT=null;
+let SCALEP=0.8;
+let SIZE={x:0,y:0,width:0,height:0);
 
 function main(){
   CANVAS=document.getElementById("myCanvas");
