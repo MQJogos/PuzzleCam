@@ -17,6 +17,11 @@ function main(){
       VIDEO.play();
      
       VIDEO.onloadeddata=function(){
+           let renizer=SCALER*
+               Math.min{
+                  window.innerWidth/VIDEO.videoWidth;
+                  window.innerHeight/VIDEO.videoHeight
+               };
            updateCanvas();
       }
   }).catch(function{err}{
